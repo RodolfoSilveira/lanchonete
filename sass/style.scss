@@ -1,0 +1,20 @@
+$light: rgba(0,0,0,.7);
+$dropdown-bg: #000;
+$dropdown-link-color: #fff;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+header{
+    height: 630px;
+    background: url("../assents/h01.jpg") no-repeat center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     
+    hr{border: 2px solid #bca385; width: 90px;}
+}
+
+section{
+    background-color: #f4f4f2;
+}
