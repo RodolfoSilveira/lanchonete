@@ -6762,5 +6762,17 @@ header {
 
 section {
   background-color: #f4f4f2; }
+  section #hamburgue {
+    border: 8px solid white; }
+  section p.sub {
+    font-size: 8pt; }
+  section .bloco {
+    line-height: 0.8; }
+
+footer .cinza-claro {
+  background: #171f26;
+  border-bottom: #242d37 solid 1px; }
+footer .cinza-escuro {
+  background: #11171d; }
 
 /*# sourceMappingURL=style.css.map */
