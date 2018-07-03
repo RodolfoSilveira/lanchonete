@@ -6759,7 +6759,7 @@ header {
   header hr {
     border: 2px solid #bca385;
     width: 90px; }
-  header nav.black {
+  header .black {
     background: rgba(0, 0, 0, 0.7); }
 
 section {
