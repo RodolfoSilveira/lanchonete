@@ -1,4 +1,3 @@
-$light: rgba(0,0,0,.7);
 $dropdown-bg: #000;
 $dropdown-link-color: #fff;
 
@@ -6,13 +5,17 @@ $dropdown-link-color: #fff;
 
 header{
     height: 630px;
-    background: url("../assents/h01.jpg") no-repeat center fixed;
+    background: url("../assents/h01.jpg") no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
      
     hr{border: 2px solid #bca385; width: 90px;}
+    
+    
+   nav.black{background: rgba(0,0,0,.7);}
+    
 }
 
 section{

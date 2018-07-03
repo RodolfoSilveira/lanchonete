@@ -14,7 +14,7 @@
     <body>
         
         <header>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-light mb-5 sticky-top">
+            <nav class="navbar navbar-expand-lg navbar-dark mb-5 black fixed-top">
                 <a class="navbar-brand" href="#">NomeDaEmpresa</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu">
                     <span class="navbar-toggler-icon"></span>
@@ -35,7 +35,7 @@
                 </div>
             </nav>
             
-            <div class="container">
+            <div class="container pt-5">
                 <div class="row">
                     <div class="col-md-12 text-center text-white mt-5">
                         <h1 class="display-4">Lorem ipsum</h1>
@@ -121,23 +121,25 @@
         </section>
         
         <footer>
-            <div class="cinza-claro">
+            <div class="cinza-claro pb-3">
                 <div class="container pt-3">
                     <div class="row text-center text-white">
                         <div class="col-md-4">
                             <h4>Endereço</h4>
-                            <p></p>
-                            <p></p>
+                            <p><i class="fa fa-map mr-1"></i>Nunc aliquet sem nulla.imperdiet vehicula elit</p>
                         </div>
                         <div class="col-md-4">
                             <h4>Contato</h4>
-                            <p></p>
-                            <p></p>
+                            <p><i class="fa fa-envelope-square mr-1"></i>imperdiet@vehicula.elit</p>
+                            <p><i class="fa fa-phone-square mr-1"></i>(31)3131-321</p>
                         </div>
                         <div class="col-md-4">
                             <h4>Menu</h4>
-                            <p></p>
-                            <p></p>
+                            <div class="list-group text-center">
+                                <a class="list-group-item list-group-item-action list-group-item-dark" href="#">Sobre</a>
+                                <a class="list-group-item list-group-item-action list-group-item-dark" href="#">Galeria</a>
+                                <a class="list-group-item list-group-item-action list-group-item-dark" href="#">Contato</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -157,5 +159,14 @@
         <script src="node_modules/jquery/dist/jquery.min.js"></script>
         <script src="node_modules/popper.js/dist/umd/popper.js"></script>
         <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script>
+                $(window).on('scroll', function() {
+                    if($(window).scrollTop()) {
+                        $('nav').addClass('black');
+                    }else {
+                        $('nav').removeClass('black');
+                    }
+                });
+        </script>
     </body>
 </html>
