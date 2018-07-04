@@ -6760,7 +6760,8 @@ header {
     border: 2px solid #bca385;
     width: 90px; }
   header .black {
-    background: rgba(0, 0, 0, 0.7); }
+    background: rgba(0, 0, 0, 0.7);
+    transition: 1s ease-in; }
 
 section {
   background-color: #f4f4f2; }
